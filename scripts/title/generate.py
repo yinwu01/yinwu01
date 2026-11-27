@@ -5,12 +5,16 @@ The title is one monospace line. The start of the line is typed one time.
 The end of the line is typed, deleted and typed again in a better version,
 and the last version stays.
 
+The letters are drawn as outlines. No font is embedded, because GitHub
+serves repository SVG files with a policy that blocks embedded fonts.
+
+Usage:  generate.py [path/to/IBMPlexMono-Medium.otf]
 Output: assets/title-light.svg, assets/title-dark.svg
-Needs:  Python 3.9+, fonttools, brotli, IBM Plex Mono Medium (OFL; path = first argument).
-No network.
+Needs:  Python 3.9+, fonttools, IBM Plex Mono Medium
+        (github.com/IBM/plex, SIL Open Font License 1.1). No network.
 """
-import base64, io, pathlib, sys
-from fontTools import subset
+import pathlib, sys
+from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.ttLib import TTFont
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
@@ -21,9 +25,9 @@ PREFIX = "Hi, I'm Yin WU. I work on "
 TAILS = ["LLMs.", "LLMs that learn from better data.", "LLMs that improve themselves."]
 
 SIZE = 20
-CW = SIZE * 0.6            # IBM Plex Mono advance width is 600/1000 em
-W, H, BASE = 840, 44, 29
+W, H, BASE = 784, 44, 29
 START, TYPE, DELETE, HOLD = 0.5, 0.055, 0.026, 1.0
+BLINKS = 8
 
 THEMES = {
     "light": dict(ink="#1f2328", cursor="#0969da"),
@@ -58,25 +62,31 @@ def timeline():
     return chars, cursor, t
 
 
-def font_b64(text):
+def load_font():
+    if not FONT.is_file():
+        sys.exit(f"Font file not found: {FONT}\nusage: generate.py path/to/IBMPlexMono-Medium.otf")
     font = TTFont(FONT)
-    opts = subset.Options()
-    opts.layout_features = []
-    sub = subset.Subsetter(opts)
-    sub.populate(text=text)
-    sub.subset(font)
-    buf = io.BytesIO()
-    font.flavor = "woff2"
-    font.save(buf)
-    return base64.b64encode(buf.getvalue()).decode()
+    glyphs, cmap, upm = font.getGlyphSet(), font.getBestCmap(), font["head"].unitsPerEm
+    widths = {font["hmtx"][cmap[ord(ch)]][0] for ch in set(PREFIX + "".join(TAILS))}
+    if len(widths) != 1:
+        sys.exit("The font is not monospace for the title text.")
+    outlines = {}
+    for ch in set(PREFIX + "".join(TAILS)) - {" "}:
+        pen = SVGPathPen(glyphs, ntos=lambda v: f"{v:g}")
+        glyphs[cmap[ord(ch)]].draw(pen)
+        outlines[ch] = pen.getCommands()
+    return outlines, widths.pop() / upm, SIZE / upm
 
 
-def build(theme):
+def build(theme, outlines, advance, scale):
     c = THEMES[theme]
+    cw = SIZE * advance
     chars, cursor, total = timeline()
     final = PREFIX + TAILS[-1]
-    x0 = round((W - len(final) * CW) / 2, 2)
+    x0 = round((W - len(final) * cw) / 2, 2)
     pct = lambda t: f"{100 * t / total:.3f}%"
+    ids = {ch: f"g{i}" for i, ch in enumerate(sorted(outlines))}
+    defs = "".join(f'<path id="{ids[ch]}" d="{outlines[ch]}" transform="scale({scale:g},{-scale:g})"/>' for ch in sorted(outlines))
     css, body = [], []
     for k, (col, ch, on, off) in enumerate(chars):
         if ch == " ":
@@ -87,31 +97,32 @@ def build(theme):
         frames += f"100%{{opacity:{0 if off is not None else 1}}}"
         css.append(f"@keyframes k{k}{{{frames}}}")
         cls = "ch" if off is not None else "ch fin"
-        body.append(f'<text class="{cls}" style="animation-name:k{k}" x="{round(x0 + col * CW, 2)}" y="{BASE}">{ch}</text>')
-    moves = "".join(f"{pct(t)}{{transform:translateX({round(col * CW, 2)}px)}}" for t, col in cursor)
-    end = round(len(final) * CW, 2)
+        body.append(f'<use class="{cls}" style="animation-name:k{k}" href="#{ids[ch]}" x="{round(x0 + col * cw, 2)}" y="{BASE}"/>')
+    moves = "".join(f"{pct(t)}{{transform:translateX({round(col * cw, 2)}px)}}" for t, col in cursor)
+    end = round(len(final) * cw, 2)
     css.append(f"@keyframes cur{{{moves}100%{{transform:translateX({end}px)}}}}")
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t">
 <title id="t">{final}</title>
 <style>
-@font-face{{font-family:"T";src:url(data:font/woff2;base64,{font_b64(PREFIX + "".join(TAILS))}) format("woff2")}}
-text{{font:500 {SIZE}px "T",ui-monospace,Menlo,Consolas,monospace;fill:{c["ink"]}}}
+use{{fill:{c["ink"]}}}
 .ch{{opacity:0;animation-duration:{total:.3f}s;animation-timing-function:step-end;animation-fill-mode:both}}
 .fin{{opacity:1}}
 .cur{{transform:translateX({end}px);animation:cur {total:.3f}s step-end both}}
-.blink{{animation:bl 1.1s step-end {total + 0.4:.3f}s infinite}}
+.blink{{animation:bl 1.1s step-end {total + 0.4:.3f}s {BLINKS}}}
 @keyframes bl{{50%{{opacity:0}}}}
 {chr(10).join(css)}
-@media (prefers-reduced-motion:reduce){{.ch,.cur,.blink{{animation:none}}}}
+@media (prefers-reduced-motion:reduce){{.ch,.cur,.blink{{animation:none!important}}}}
 </style>
+<defs>{defs}</defs>
 {chr(10).join(body)}
-<g class="cur"><rect class="blink" x="{x0 + 1}" y="{BASE - 17}" width="{CW - 2}" height="22" rx="1" fill="{c["cursor"]}"/></g>
+<g class="cur"><rect class="blink" x="{x0 + 1}" y="{BASE - 17}" width="{cw - 2:g}" height="22" rx="1" fill="{c["cursor"]}"/></g>
 </svg>
 '''
 
 
 if __name__ == "__main__":
+    font = load_font()
     for theme in THEMES:
         out = ROOT / f"assets/title-{theme}.svg"
-        out.write_text(build(theme))
+        out.write_text(build(theme, *font), encoding="utf-8")
         print(out.relative_to(ROOT), out.stat().st_size, "bytes")

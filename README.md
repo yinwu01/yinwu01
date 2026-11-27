@@ -5,7 +5,7 @@
     <img alt="Hi, I'm Yin WU. I work on LLMs that improve themselves." src="./assets/title-light.svg" width="840">
   </picture>
   <p><strong>Second-year PhD student. I build open-source tools for doing research with coding agents.</strong></p>
-  <p>👋 <strong>Open to internship opportunities</strong></p>
+  <p><img src="./assets/status-dot.svg" alt="" width="14" height="14"> <strong>Open to internship opportunities</strong></p>
 </div>
 
 #### Research
@@ -15,8 +15,8 @@
 
 #### Industry experience
 
-- **ByteDance** (Frontier Tech Program)
-- **Huawei Cloud Lab**
+- **ByteDance** (Frontier Tech Program): recursively self-improving agents for workflows and human collaboration
+- **Huawei Cloud Lab**: evolving ontology agents
 
 #### Recent interests
 
@@ -26,5 +26,5 @@
 
 #### Fun facts
 
-- I max out 2 × Claude Ultra ($200/month), 1 × GPT Pro ($200/month), Poe ($500/year) and a few smaller AI apps. Every month. I believe AI is the cyberware of our era, and I need to get stronger 🙂
+- I max out 2 × Claude Ultra ($200/month), 1 × GPT Pro ($200/month), Poe ($500/year) and a few smaller AI apps. Every month. I believe AI is the [cyberware](https://en.wikipedia.org/wiki/Cyberware) of our era, and I need to get stronger 🙂
 - Both of my industry projects shipped, at ByteDance and at Huawei Cloud Lab. Not only for papers.

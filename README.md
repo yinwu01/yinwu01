@@ -15,7 +15,7 @@
 
 #### Industry experience
 
-- **ByteDance** (Frontier Tech Program): recursively self-improving agents for workflows and human collaboration
+- **ByteDance** (Frontier Tech Program): self-improving workflow agents
 - **Huawei Cloud Lab**: evolving ontology agents
 
 #### Recent interests

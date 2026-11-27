@@ -2,7 +2,7 @@
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/header/header-dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/header/header-light.svg">
-    <img alt="Yin WU. Recursive self-improvement and data-centric LLMs. One bar per day: 2,759 contributions, Nov 2025 to Nov 2026." src="./assets/header/header-light.svg" width="840">
+    <img alt="Yin WU. Recursive self-improvement and data-centric LLMs. 2,759 contributions in the past year, one bar per week." src="./assets/header/header-light.svg" width="840">
   </picture>
   <p>Second-year PhD student. I build open-source tools for doing research with coding agents.</p>
   <p>

@@ -1,6 +1,10 @@
 <div align="center">
-  <img src="./assets/title.svg" alt="Hi, I'm Yin WU. I work on RSI and data-centric LLMs" width="760">
-  <p><strong>Second-year PhD student. I build open-source tools for doing research with coding agents.</strong></p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/title-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/title-light.svg">
+    <img alt="Hi, I'm Yin WU. I work on LLMs that improve themselves." src="./assets/title-light.svg" width="840">
+  </picture>
+  <p>Second-year PhD student. I build open-source tools for doing research with coding agents.</p>
   <p>
     <code>Intern at ByteDance (Frontier Tech Program)</code>
     <code>Based in Shanghai</code>

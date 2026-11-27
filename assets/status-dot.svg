@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" role="img" aria-label="Available">
-<style>
-.r{transform-box:fill-box;transform-origin:center;animation:p 2.4s ease-out infinite}
-@keyframes p{0%{transform:scale(1);opacity:.55}70%,100%{transform:scale(2.4);opacity:0}}
-@media (prefers-reduced-motion:reduce){.r{animation:none;opacity:0}}
-</style>
-<circle class="r" cx="8" cy="8" r="3.2" fill="#2da44e"/>
-<circle cx="8" cy="8" r="3.2" fill="#2da44e"/>
-</svg>

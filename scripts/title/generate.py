@@ -14,6 +14,7 @@ Needs:  Python 3.9+, fonttools, IBM Plex Mono Medium
         (github.com/IBM/plex, SIL Open Font License 1.1). No network.
 """
 import pathlib, sys
+from xml.sax.saxutils import escape
 from fontTools.pens.svgPathPen import SVGPathPen
 from fontTools.ttLib import TTFont
 
@@ -67,6 +68,9 @@ def load_font():
         sys.exit(f"Font file not found: {FONT}\nusage: generate.py path/to/IBMPlexMono-Medium.otf")
     font = TTFont(FONT)
     glyphs, cmap, upm = font.getGlyphSet(), font.getBestCmap(), font["head"].unitsPerEm
+    missing = sorted(ch for ch in set(PREFIX + "".join(TAILS)) if ord(ch) not in cmap)
+    if missing:
+        sys.exit(f"The font has no glyph for: {missing}")
     widths = {font["hmtx"][cmap[ord(ch)]][0] for ch in set(PREFIX + "".join(TAILS))}
     if len(widths) != 1:
         sys.exit("The font is not monospace for the title text.")
@@ -97,12 +101,12 @@ def build(theme, outlines, advance, scale):
         frames += f"100%{{opacity:{0 if off is not None else 1}}}"
         css.append(f"@keyframes k{k}{{{frames}}}")
         cls = "ch" if off is not None else "ch fin"
-        body.append(f'<use class="{cls}" style="animation-name:k{k}" href="#{ids[ch]}" x="{round(x0 + col * cw, 2)}" y="{BASE}"/>')
+        body.append(f'<use class="{cls}" style="animation-name:k{k}" href="#{ids[ch]}" xlink:href="#{ids[ch]}" x="{round(x0 + col * cw, 2)}" y="{BASE}"/>')
     moves = "".join(f"{pct(t)}{{transform:translateX({round(col * cw, 2)}px)}}" for t, col in cursor)
     end = round(len(final) * cw, 2)
     css.append(f"@keyframes cur{{{moves}100%{{transform:translateX({end}px)}}}}")
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t">
-<title id="t">{final}</title>
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="{W}" height="{H}" viewBox="0 0 {W} {H}" role="img" aria-labelledby="t">
+<title id="t">{escape(final)}</title>
 <style>
 use{{fill:{c["ink"]}}}
 .ch{{opacity:0;animation-duration:{total:.3f}s;animation-timing-function:step-end;animation-fill-mode:both}}

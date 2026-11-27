@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="784" height="44" viewBox="0 0 784 44" role="img" aria-labelledby="t">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="784" height="44" viewBox="0 0 784 44" role="img" aria-labelledby="t">
 <title id="t">Hi, I'm Yin WU. I work on LLMs that improve themselves.</title>
 <style>
 use{fill:#f0f6fc}
@@ -77,71 +77,71 @@ use{fill:#f0f6fc}
 @media (prefers-reduced-motion:reduce){.ch,.cur,.blink{animation:none!important}}
 </style>
 <defs><path id="g0" d="M350 442V740H250V442Z" transform="scale(0.02,-0.02)"/><path id="g1" d="M190 -145H275L399 152H244Z" transform="scale(0.02,-0.02)"/><path id="g2" d="M300 -10C363 -10 387 21 387 59V85C387 123 363 154 300 154C237 154 213 123 213 85V59C213 21 237 -10 300 -10Z" transform="scale(0.02,-0.02)"/><path id="g3" d="M416 0H528V698H416V401H184V698H72V0H184V307H416Z" transform="scale(0.02,-0.02)"/><path id="g4" d="M520 0V85H356V613H520V698H80V613H244V85H80V0Z" transform="scale(0.02,-0.02)"/><path id="g5" d="M538 0V94H220V698H108V0Z" transform="scale(0.02,-0.02)"/><path id="g6" d="M445 0H544V698H415L307 421H300L193 698H56V0H155V334L152 544H160L300 185L440 544H448L445 334Z" transform="scale(0.02,-0.02)"/><path id="g7" d="M69 698V289C69 89 105 -12 300 -12C495 -12 531 89 531 289V698H419V269C419 154 413 81 300 81C187 81 181 154 181 269V698Z" transform="scale(0.02,-0.02)"/><path id="g8" d="M225 0 296 404H304L375 0H525L575 698H481L455 292L444 113H436L357 529H246L167 113H159L148 292L123 698H25L75 0Z" transform="scale(0.02,-0.02)"/><path id="g9" d="M356 0V263L588 698H466L377 524L304 375H298L226 524L137 698H12L244 263V0Z" transform="scale(0.02,-0.02)"/><path id="g10" d="M559 0V86H494V345C494 463 414 528 284 528C175 528 105 481 76 425L141 372C169 415 208 443 274 443C348 443 385 407 385 338V298H286C133 298 60 244 60 144C60 47 128 -12 233 -12C314 -12 368 25 388 87H393C399 35 430 0 492 0ZM264 68C206 68 170 92 170 138V158C170 204 208 229 288 229H385V154C385 103 334 68 264 68Z" transform="scale(0.02,-0.02)"/><path id="g11" d="M79 0H188V88H194C224 26 274 -12 350 -12C471 -12 549 81 549 258C549 435 471 528 350 528C274 528 224 490 194 428H188V740H79ZM305 77C242 77 188 109 188 172V344C188 407 242 439 305 439C387 439 434 384 434 300V216C434 132 387 77 305 77Z" transform="scale(0.02,-0.02)"/><path id="g12" d="M412 0H521V740H412V428H406C376 490 326 528 250 528C129 528 51 435 51 258C51 81 129 -12 250 -12C326 -12 376 26 406 88H412ZM295 77C213 77 166 132 166 216V300C166 384 213 439 295 439C358 439 412 407 412 344V172C412 109 358 77 295 77Z" transform="scale(0.02,-0.02)"/><path id="g13" d="M311 -12C417 -12 489 35 524 95L456 155C427 107 379 76 313 76C224 76 170 133 170 214V231H540V272C540 424 448 528 303 528C156 528 60 423 60 257C60 93 153 -12 311 -12ZM303 445C379 445 429 392 429 311V301H170V308C170 388 225 445 303 445Z" transform="scale(0.02,-0.02)"/><path id="g14" d="M78 0H526V88H352V428H549V516H352V652H549V740H375C285 740 243 686 243 609V516H68V428H243V88H78Z" transform="scale(0.02,-0.02)"/><path id="g15" d="M84 0H193V350C193 410 249 439 305 439C375 439 412 398 412 316V0H521V332C521 457 451 528 347 528C262 528 220 482 198 428H193V740H84Z" transform="scale(0.02,-0.02)"/><path id="g16" d="M332 610C386 610 406 636 406 669V690C406 723 386 749 331 749C277 749 257 723 257 690V669C257 636 277 610 332 610ZM101 0H551V88H386V516H101V428H277V88H101Z" transform="scale(0.02,-0.02)"/><path id="g17" d="M88 0H197V184L269 251L449 0H580L348 313L557 516H428L283 376L202 293H197V740H88Z" transform="scale(0.02,-0.02)"/><path id="g18" d="M75 0H526V88H355V740H75V652H246V88H75Z" transform="scale(0.02,-0.02)"/><path id="g19" d="M137 0V374C137 421 163 444 199 444C238 444 253 420 253 349V0H346V374C346 421 372 444 407 444C446 444 462 420 462 349V0H555V363C555 470 527 528 448 528C386 528 355 491 337 444H333C325 496 295 528 241 528C185 528 158 493 142 449H137V516H44V0Z" transform="scale(0.02,-0.02)"/><path id="g20" d="M193 0V350C193 410 249 439 305 439C375 439 412 398 412 316V0H521V332C521 457 451 528 347 528C262 528 220 482 198 428H193V516H84V0Z" transform="scale(0.02,-0.02)"/><path id="g21" d="M300 -12C452 -12 545 93 545 258C545 423 452 528 300 528C148 528 55 423 55 258C55 93 148 -12 300 -12ZM300 74C221 74 169 123 169 219V297C169 393 221 442 300 442C379 442 431 393 431 297V219C431 123 379 74 300 74Z" transform="scale(0.02,-0.02)"/><path id="g22" d="M79 -200H188V88H194C224 26 274 -12 350 -12C471 -12 549 81 549 258C549 435 471 528 350 528C274 528 224 490 194 428H188V516H79ZM305 77C242 77 188 109 188 172V344C188 407 242 439 305 439C387 439 434 384 434 300V216C434 132 387 77 305 77Z" transform="scale(0.02,-0.02)"/><path id="g23" d="M76 0H469V88H322V281C322 353 369 412 458 412H560V516H498C393 516 348 451 328 379H322V516H76V428H213V88H76Z" transform="scale(0.02,-0.02)"/><path id="g24" d="M301 -12C442 -12 528 51 528 155C528 261 438 289 356 301L274 314C231 320 195 332 195 376C195 421 233 445 304 445C385 445 432 414 459 383L520 447C473 498 404 528 308 528C176 528 88 472 88 367C88 261 179 232 260 220L342 207C386 201 421 189 421 145C421 94 373 71 303 71C226 71 171 98 126 147L59 87C108 27 190 -12 301 -12Z" transform="scale(0.02,-0.02)"/><path id="g25" d="M528 0V88H308V428H528V516H308V698H206V569C206 529 191 516 153 516H40V428H199V131C199 54 241 0 331 0Z" transform="scale(0.02,-0.02)"/><path id="g26" d="M367 0 552 516H443L372 298L305 91H299L232 298L161 516H48L233 0Z" transform="scale(0.02,-0.02)"/><path id="g27" d="M92 0H226L296 400H305L374 0H508L580 516H491L440 82H431L355 516H249L172 82H163L113 516H20Z" transform="scale(0.02,-0.02)"/></defs>
-<use class="ch" style="animation-name:k0" href="#g2" x="422.0" y="29"/>
-<use class="ch" style="animation-name:k1" href="#g2" x="758.0" y="29"/>
-<use class="ch" style="animation-name:k2" href="#g10" x="746.0" y="29"/>
-<use class="ch" style="animation-name:k3" href="#g25" x="734.0" y="29"/>
-<use class="ch" style="animation-name:k4" href="#g10" x="722.0" y="29"/>
-<use class="ch" style="animation-name:k5" href="#g12" x="710.0" y="29"/>
-<use class="ch" style="animation-name:k7" href="#g23" x="686.0" y="29"/>
-<use class="ch" style="animation-name:k8" href="#g13" x="674.0" y="29"/>
-<use class="ch" style="animation-name:k9" href="#g25" x="662.0" y="29"/>
-<use class="ch" style="animation-name:k10" href="#g25" x="650.0" y="29"/>
-<use class="ch" style="animation-name:k11" href="#g13" x="638.0" y="29"/>
-<use class="ch" style="animation-name:k12" href="#g11" x="626.0" y="29"/>
-<use class="ch" style="animation-name:k14" href="#g19" x="602.0" y="29"/>
-<use class="ch" style="animation-name:k15" href="#g21" x="590.0" y="29"/>
-<use class="ch" style="animation-name:k16" href="#g23" x="578.0" y="29"/>
-<use class="ch" style="animation-name:k17" href="#g14" x="566.0" y="29"/>
-<use class="ch" style="animation-name:k19" href="#g20" x="542.0" y="29"/>
-<use class="ch" style="animation-name:k20" href="#g23" x="530.0" y="29"/>
-<use class="ch" style="animation-name:k21" href="#g10" x="518.0" y="29"/>
-<use class="ch" style="animation-name:k22" href="#g13" x="506.0" y="29"/>
-<use class="ch" style="animation-name:k23" href="#g18" x="494.0" y="29"/>
-<use class="ch fin" style="animation-name:k24" href="#g3" x="62.0" y="29"/>
-<use class="ch fin" style="animation-name:k25" href="#g16" x="74.0" y="29"/>
-<use class="ch fin" style="animation-name:k26" href="#g1" x="86.0" y="29"/>
-<use class="ch fin" style="animation-name:k28" href="#g4" x="110.0" y="29"/>
-<use class="ch fin" style="animation-name:k29" href="#g0" x="122.0" y="29"/>
-<use class="ch fin" style="animation-name:k30" href="#g19" x="134.0" y="29"/>
-<use class="ch fin" style="animation-name:k32" href="#g9" x="158.0" y="29"/>
-<use class="ch fin" style="animation-name:k33" href="#g16" x="170.0" y="29"/>
-<use class="ch fin" style="animation-name:k34" href="#g20" x="182.0" y="29"/>
-<use class="ch fin" style="animation-name:k36" href="#g8" x="206.0" y="29"/>
-<use class="ch fin" style="animation-name:k37" href="#g7" x="218.0" y="29"/>
-<use class="ch fin" style="animation-name:k38" href="#g2" x="230.0" y="29"/>
-<use class="ch fin" style="animation-name:k40" href="#g4" x="254.0" y="29"/>
-<use class="ch fin" style="animation-name:k42" href="#g27" x="278.0" y="29"/>
-<use class="ch fin" style="animation-name:k43" href="#g21" x="290.0" y="29"/>
-<use class="ch fin" style="animation-name:k44" href="#g23" x="302.0" y="29"/>
-<use class="ch fin" style="animation-name:k45" href="#g17" x="314.0" y="29"/>
-<use class="ch fin" style="animation-name:k47" href="#g21" x="338.0" y="29"/>
-<use class="ch fin" style="animation-name:k48" href="#g20" x="350.0" y="29"/>
-<use class="ch fin" style="animation-name:k50" href="#g5" x="374.0" y="29"/>
-<use class="ch fin" style="animation-name:k51" href="#g5" x="386.0" y="29"/>
-<use class="ch fin" style="animation-name:k52" href="#g6" x="398.0" y="29"/>
-<use class="ch fin" style="animation-name:k53" href="#g24" x="410.0" y="29"/>
-<use class="ch fin" style="animation-name:k55" href="#g25" x="434.0" y="29"/>
-<use class="ch fin" style="animation-name:k56" href="#g15" x="446.0" y="29"/>
-<use class="ch fin" style="animation-name:k57" href="#g10" x="458.0" y="29"/>
-<use class="ch fin" style="animation-name:k58" href="#g25" x="470.0" y="29"/>
-<use class="ch fin" style="animation-name:k60" href="#g16" x="494.0" y="29"/>
-<use class="ch fin" style="animation-name:k61" href="#g19" x="506.0" y="29"/>
-<use class="ch fin" style="animation-name:k62" href="#g22" x="518.0" y="29"/>
-<use class="ch fin" style="animation-name:k63" href="#g23" x="530.0" y="29"/>
-<use class="ch fin" style="animation-name:k64" href="#g21" x="542.0" y="29"/>
-<use class="ch fin" style="animation-name:k65" href="#g26" x="554.0" y="29"/>
-<use class="ch fin" style="animation-name:k66" href="#g13" x="566.0" y="29"/>
-<use class="ch fin" style="animation-name:k68" href="#g25" x="590.0" y="29"/>
-<use class="ch fin" style="animation-name:k69" href="#g15" x="602.0" y="29"/>
-<use class="ch fin" style="animation-name:k70" href="#g13" x="614.0" y="29"/>
-<use class="ch fin" style="animation-name:k71" href="#g19" x="626.0" y="29"/>
-<use class="ch fin" style="animation-name:k72" href="#g24" x="638.0" y="29"/>
-<use class="ch fin" style="animation-name:k73" href="#g13" x="650.0" y="29"/>
-<use class="ch fin" style="animation-name:k74" href="#g18" x="662.0" y="29"/>
-<use class="ch fin" style="animation-name:k75" href="#g26" x="674.0" y="29"/>
-<use class="ch fin" style="animation-name:k76" href="#g13" x="686.0" y="29"/>
-<use class="ch fin" style="animation-name:k77" href="#g24" x="698.0" y="29"/>
-<use class="ch fin" style="animation-name:k78" href="#g2" x="710.0" y="29"/>
+<use class="ch" style="animation-name:k0" href="#g2" xlink:href="#g2" x="422.0" y="29"/>
+<use class="ch" style="animation-name:k1" href="#g2" xlink:href="#g2" x="758.0" y="29"/>
+<use class="ch" style="animation-name:k2" href="#g10" xlink:href="#g10" x="746.0" y="29"/>
+<use class="ch" style="animation-name:k3" href="#g25" xlink:href="#g25" x="734.0" y="29"/>
+<use class="ch" style="animation-name:k4" href="#g10" xlink:href="#g10" x="722.0" y="29"/>
+<use class="ch" style="animation-name:k5" href="#g12" xlink:href="#g12" x="710.0" y="29"/>
+<use class="ch" style="animation-name:k7" href="#g23" xlink:href="#g23" x="686.0" y="29"/>
+<use class="ch" style="animation-name:k8" href="#g13" xlink:href="#g13" x="674.0" y="29"/>
+<use class="ch" style="animation-name:k9" href="#g25" xlink:href="#g25" x="662.0" y="29"/>
+<use class="ch" style="animation-name:k10" href="#g25" xlink:href="#g25" x="650.0" y="29"/>
+<use class="ch" style="animation-name:k11" href="#g13" xlink:href="#g13" x="638.0" y="29"/>
+<use class="ch" style="animation-name:k12" href="#g11" xlink:href="#g11" x="626.0" y="29"/>
+<use class="ch" style="animation-name:k14" href="#g19" xlink:href="#g19" x="602.0" y="29"/>
+<use class="ch" style="animation-name:k15" href="#g21" xlink:href="#g21" x="590.0" y="29"/>
+<use class="ch" style="animation-name:k16" href="#g23" xlink:href="#g23" x="578.0" y="29"/>
+<use class="ch" style="animation-name:k17" href="#g14" xlink:href="#g14" x="566.0" y="29"/>
+<use class="ch" style="animation-name:k19" href="#g20" xlink:href="#g20" x="542.0" y="29"/>
+<use class="ch" style="animation-name:k20" href="#g23" xlink:href="#g23" x="530.0" y="29"/>
+<use class="ch" style="animation-name:k21" href="#g10" xlink:href="#g10" x="518.0" y="29"/>
+<use class="ch" style="animation-name:k22" href="#g13" xlink:href="#g13" x="506.0" y="29"/>
+<use class="ch" style="animation-name:k23" href="#g18" xlink:href="#g18" x="494.0" y="29"/>
+<use class="ch fin" style="animation-name:k24" href="#g3" xlink:href="#g3" x="62.0" y="29"/>
+<use class="ch fin" style="animation-name:k25" href="#g16" xlink:href="#g16" x="74.0" y="29"/>
+<use class="ch fin" style="animation-name:k26" href="#g1" xlink:href="#g1" x="86.0" y="29"/>
+<use class="ch fin" style="animation-name:k28" href="#g4" xlink:href="#g4" x="110.0" y="29"/>
+<use class="ch fin" style="animation-name:k29" href="#g0" xlink:href="#g0" x="122.0" y="29"/>
+<use class="ch fin" style="animation-name:k30" href="#g19" xlink:href="#g19" x="134.0" y="29"/>
+<use class="ch fin" style="animation-name:k32" href="#g9" xlink:href="#g9" x="158.0" y="29"/>
+<use class="ch fin" style="animation-name:k33" href="#g16" xlink:href="#g16" x="170.0" y="29"/>
+<use class="ch fin" style="animation-name:k34" href="#g20" xlink:href="#g20" x="182.0" y="29"/>
+<use class="ch fin" style="animation-name:k36" href="#g8" xlink:href="#g8" x="206.0" y="29"/>
+<use class="ch fin" style="animation-name:k37" href="#g7" xlink:href="#g7" x="218.0" y="29"/>
+<use class="ch fin" style="animation-name:k38" href="#g2" xlink:href="#g2" x="230.0" y="29"/>
+<use class="ch fin" style="animation-name:k40" href="#g4" xlink:href="#g4" x="254.0" y="29"/>
+<use class="ch fin" style="animation-name:k42" href="#g27" xlink:href="#g27" x="278.0" y="29"/>
+<use class="ch fin" style="animation-name:k43" href="#g21" xlink:href="#g21" x="290.0" y="29"/>
+<use class="ch fin" style="animation-name:k44" href="#g23" xlink:href="#g23" x="302.0" y="29"/>
+<use class="ch fin" style="animation-name:k45" href="#g17" xlink:href="#g17" x="314.0" y="29"/>
+<use class="ch fin" style="animation-name:k47" href="#g21" xlink:href="#g21" x="338.0" y="29"/>
+<use class="ch fin" style="animation-name:k48" href="#g20" xlink:href="#g20" x="350.0" y="29"/>
+<use class="ch fin" style="animation-name:k50" href="#g5" xlink:href="#g5" x="374.0" y="29"/>
+<use class="ch fin" style="animation-name:k51" href="#g5" xlink:href="#g5" x="386.0" y="29"/>
+<use class="ch fin" style="animation-name:k52" href="#g6" xlink:href="#g6" x="398.0" y="29"/>
+<use class="ch fin" style="animation-name:k53" href="#g24" xlink:href="#g24" x="410.0" y="29"/>
+<use class="ch fin" style="animation-name:k55" href="#g25" xlink:href="#g25" x="434.0" y="29"/>
+<use class="ch fin" style="animation-name:k56" href="#g15" xlink:href="#g15" x="446.0" y="29"/>
+<use class="ch fin" style="animation-name:k57" href="#g10" xlink:href="#g10" x="458.0" y="29"/>
+<use class="ch fin" style="animation-name:k58" href="#g25" xlink:href="#g25" x="470.0" y="29"/>
+<use class="ch fin" style="animation-name:k60" href="#g16" xlink:href="#g16" x="494.0" y="29"/>
+<use class="ch fin" style="animation-name:k61" href="#g19" xlink:href="#g19" x="506.0" y="29"/>
+<use class="ch fin" style="animation-name:k62" href="#g22" xlink:href="#g22" x="518.0" y="29"/>
+<use class="ch fin" style="animation-name:k63" href="#g23" xlink:href="#g23" x="530.0" y="29"/>
+<use class="ch fin" style="animation-name:k64" href="#g21" xlink:href="#g21" x="542.0" y="29"/>
+<use class="ch fin" style="animation-name:k65" href="#g26" xlink:href="#g26" x="554.0" y="29"/>
+<use class="ch fin" style="animation-name:k66" href="#g13" xlink:href="#g13" x="566.0" y="29"/>
+<use class="ch fin" style="animation-name:k68" href="#g25" xlink:href="#g25" x="590.0" y="29"/>
+<use class="ch fin" style="animation-name:k69" href="#g15" xlink:href="#g15" x="602.0" y="29"/>
+<use class="ch fin" style="animation-name:k70" href="#g13" xlink:href="#g13" x="614.0" y="29"/>
+<use class="ch fin" style="animation-name:k71" href="#g19" xlink:href="#g19" x="626.0" y="29"/>
+<use class="ch fin" style="animation-name:k72" href="#g24" xlink:href="#g24" x="638.0" y="29"/>
+<use class="ch fin" style="animation-name:k73" href="#g13" xlink:href="#g13" x="650.0" y="29"/>
+<use class="ch fin" style="animation-name:k74" href="#g18" xlink:href="#g18" x="662.0" y="29"/>
+<use class="ch fin" style="animation-name:k75" href="#g26" xlink:href="#g26" x="674.0" y="29"/>
+<use class="ch fin" style="animation-name:k76" href="#g13" xlink:href="#g13" x="686.0" y="29"/>
+<use class="ch fin" style="animation-name:k77" href="#g24" xlink:href="#g24" x="698.0" y="29"/>
+<use class="ch fin" style="animation-name:k78" href="#g2" xlink:href="#g2" x="710.0" y="29"/>
 <g class="cur"><rect class="blink" x="63.0" y="12" width="10" height="22" rx="1" fill="#4493f8"/></g>
 </svg>

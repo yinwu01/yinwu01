@@ -29,7 +29,7 @@ CARDS = [
      "A workspace for editable diagrams that you build together with an agent.", "4 merged pull requests"),
 ]
 
-W, H, PAD = 400, 232, 30
+W, H, PAD = 400, 252, 30
 THEMES = {
     "light": dict(bg="#f5f5f7", ink="#1d1d1f", soft="#6e6e73"),
     "dark":  dict(bg="#1c1c1e", ink="#f5f5f7", soft="#a1a1a6"),

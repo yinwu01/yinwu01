@@ -23,17 +23,17 @@
 #### Built
 
 <p align="center">
-<a href="https://github.com/HKUSTDial/Supervisor-Skills"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/cards/supervisor-skills-dark.svg"><img alt="Supervisor-Skills" src="../assets/cards/supervisor-skills-light.svg" width="32%"></picture></a>
-<a href="https://github.com/HKUSTDial/Ducktor"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/cards/ducktor-dark.svg"><img alt="Ducktor" src="../assets/cards/ducktor-light.svg" width="32%"></picture></a>
-<a href="https://github.com/HKUSTDial/DeepSeek-Ducktor"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/cards/deepseek-ducktor-dark.svg"><img alt="DeepSeek-Ducktor" src="../assets/cards/deepseek-ducktor-light.svg" width="32%"></picture></a>
+<a href="https://github.com/HKUSTDial/Supervisor-Skills"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/cards/supervisor-skills-dark.svg"><img alt="Supervisor-Skills" src="../assets/cards/supervisor-skills-light.svg" width="31.5%"></picture></a>
+<a href="https://github.com/HKUSTDial/Ducktor"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/cards/ducktor-dark.svg"><img alt="Ducktor" src="../assets/cards/ducktor-light.svg" width="31.5%"></picture></a>
+<a href="https://github.com/HKUSTDial/DeepSeek-Ducktor"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/cards/deepseek-ducktor-dark.svg"><img alt="DeepSeek-Ducktor" src="../assets/cards/deepseek-ducktor-light.svg" width="31.5%"></picture></a>
 </p>
 
 #### Contributed to
 
 <p align="center">
-<a href="https://github.com/yetone/magpie/commits?author=yinwu01"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/cards/magpie-dark.svg"><img alt="magpie" src="../assets/cards/magpie-light.svg" width="32%"></picture></a>
-<a href="https://github.com/wangzan101/Mika/pulls?q=is%3Apr+author%3Ayinwu01+is%3Amerged"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/cards/mika-dark.svg"><img alt="Mika" src="../assets/cards/mika-light.svg" width="32%"></picture></a>
-<a href="https://github.com/GeminiLight/EvoDesign/pulls?q=is%3Apr+author%3Ayinwu01+is%3Amerged"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/cards/evodesign-dark.svg"><img alt="EvoDesign" src="../assets/cards/evodesign-light.svg" width="32%"></picture></a>
+<a href="https://github.com/yetone/magpie/commits?author=yinwu01"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/cards/magpie-dark.svg"><img alt="magpie" src="../assets/cards/magpie-light.svg" width="31.5%"></picture></a>
+<a href="https://github.com/wangzan101/Mika/pulls?q=is%3Apr+author%3Ayinwu01+is%3Amerged"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/cards/mika-dark.svg"><img alt="Mika" src="../assets/cards/mika-light.svg" width="31.5%"></picture></a>
+<a href="https://github.com/GeminiLight/EvoDesign/pulls?q=is%3Apr+author%3Ayinwu01+is%3Amerged"><picture><source media="(prefers-color-scheme: dark)" srcset="../assets/cards/evodesign-dark.svg"><img alt="EvoDesign" src="../assets/cards/evodesign-light.svg" width="31.5%"></picture></a>
 </p>
 
 #### Papers

@@ -8,6 +8,10 @@
   <p>Shanghai · X: <a href="https://x.com/YinWU2001">@YinWU2001</a> · Open to internship opportunities</p>
 </div>
 
+#### Research interests
+
+Recursive self-improvement (RSI) and data-centric methods for LLMs.
+
 #### Industry experience
 
 - **ByteDance**, Frontier Tech Program. Intern.
@@ -25,5 +29,5 @@ Coming soon.
 
 #### Fun facts
 
-- I pay for 2 × Claude Ultra ($200/month), 1 × GPT Pro ($200/month), Poe ($500/year) and a few smaller AI apps. I use up the quota on every one of them.
+- I max out 2 × Claude Ultra ($200/month), 1 × GPT Pro ($200/month), Poe ($500/year) and a few smaller AI apps. Every month.
 - Both of my industry projects shipped, at ByteDance and at Huawei Cloud Lab. Not only for papers.

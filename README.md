@@ -5,7 +5,7 @@
     <img alt="Hi, I'm Yin WU. I work on LLMs that improve themselves." src="./assets/title-light.svg" width="840">
   </picture>
   <p><strong>Second-year PhD student. I build open-source tools for doing research with coding agents.</strong></p>
-  <p>👋 <strong>Open to internship opportunities</strong></p>
+  <p>👋 <strong><a href="https://x.com/YinWU2001">Open to internship opportunities</a></strong></p>
 </div>
 
 #### Research

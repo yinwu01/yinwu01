@@ -20,9 +20,9 @@
 
 #### Recent interests
 
-- **Human + Agent.** I build and maintain [Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills) (★ 13.7k), [Ducktor](https://github.com/HKUSTDial/Ducktor) (★ 116) and [DeepSeek-Ducktor](https://github.com/HKUSTDial/DeepSeek-Ducktor) (★ 50).
-- **Agent systems.** I contribute to [magpie](https://github.com/yetone/magpie) (★ 42.4k) and [Mika](https://github.com/wangzan101/Mika) (★ 10.1k).
-- **AI for everyone.** I want everyone to have the most capable AI within reach: [claude-zhibi](https://github.com/yinwu01/claude-zhibi) (★ 43).
+- **Human + Agent.** I build and maintain [Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills), [Ducktor](https://github.com/HKUSTDial/Ducktor) and [DeepSeek-Ducktor](https://github.com/HKUSTDial/DeepSeek-Ducktor).
+- **Agent systems.** I contribute to [magpie](https://github.com/yetone/magpie) and [Mika](https://github.com/wangzan101/Mika).
+- **AI for everyone.** I want everyone to have the most capable AI within reach: [claude-zhibi](https://github.com/yinwu01/claude-zhibi).
 
 #### Fun facts
 

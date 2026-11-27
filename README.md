@@ -8,7 +8,7 @@
   <p>Shanghai · X: <a href="https://x.com/YinWU2001">@YinWU2001</a> · Open to internship opportunities</p>
 </div>
 
-#### Research interests
+#### Research
 
 Recursive self-improvement (RSI) and data-centric methods for LLMs.
 
@@ -22,10 +22,6 @@ Recursive self-improvement (RSI) and data-centric methods for LLMs.
 - **Human + Agent.** I build and maintain [Supervisor-Skills](https://github.com/HKUSTDial/Supervisor-Skills), [Ducktor](https://github.com/HKUSTDial/Ducktor) and [DeepSeek-Ducktor](https://github.com/HKUSTDial/DeepSeek-Ducktor).
 - **Agent infrastructure and apps.** I contribute to [magpie](https://github.com/yetone/magpie/commits?author=yinwu01) (60+ commits) and [Mika](https://github.com/wangzan101/Mika/pulls?q=is%3Apr+author%3Ayinwu01+is%3Amerged) (14+ merged pull requests).
 - **AI for everyone.** I want everyone to have the most capable AI within reach: [claude-zhibi](https://github.com/yinwu01/claude-zhibi).
-
-#### Papers
-
-Coming soon.
 
 #### Fun facts
 

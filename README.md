@@ -26,5 +26,5 @@
 
 #### Fun facts
 
-- I max out 2 × Claude Ultra ($200/month), 1 × GPT Pro ($200/month), Poe ($500/year) and a few smaller AI apps. Every month. **I believe AI is the [cyberware](https://en.wikipedia.org/wiki/Cyberware) of our era, and I need to get stronger :) **
+- I max out 2 × Claude Ultra ($200/month), 1 × GPT Pro ($200/month), Poe ($500/year) and a few smaller AI apps. Every month. **I believe AI is the [cyberware](https://en.wikipedia.org/wiki/Cyberware) of our era, and I need to get stronger :)**
 - **Both of my industry projects shipped**, at ByteDance and at Huawei Cloud Lab. Not only for papers.

@@ -1,8 +1,12 @@
-# Yin WU
-
-Second-year PhD student. I work on recursive self-improvement (RSI) and data-centric methods for LLMs, and I build open-source tools for doing research with coding agents.
-
-Intern at ByteDance (Frontier Tech Program). Based in Shanghai.
+<div align="center">
+  <img src="./assets/title.svg" alt="Hi, I'm Yin WU. I work on RSI and data-centric LLMs" width="760">
+  <p><strong>Second-year PhD student. I build open-source tools for doing research with coding agents.</strong></p>
+  <p>
+    <code>Intern at ByteDance (Frontier Tech Program)</code>
+    <code>Based in Shanghai</code>
+  </p>
+  <p>X: <a href="https://x.com/YinWU2001">@YinWU2001</a> · Open to internship opportunities</p>
+</div>
 
 ## Projects
 
@@ -17,7 +21,3 @@ Intern at ByteDance (Frontier Tech Program). Based in Shanghai.
 - [yetone/magpie](https://github.com/yetone/magpie/commits?author=yinwu01): 60+ commits on main. Magpie pools the AI plans you pay for and makes them usable from any agent.
 - [wangzan101/Mika](https://github.com/wangzan101/Mika/pulls?q=is%3Apr+author%3Ayinwu01+is%3Amerged): 14+ merged pull requests. Mika is an on-device AI agent for Android.
 - [GeminiLight/EvoDesign](https://github.com/GeminiLight/EvoDesign/pulls?q=is%3Apr+author%3Ayinwu01+is%3Amerged): 4 merged pull requests. EvoDesign is a workspace for editable diagrams that you build together with an agent.
-
-## Contact
-
-X: [@YinWU2001](https://x.com/YinWU2001). Open to internship opportunities.
